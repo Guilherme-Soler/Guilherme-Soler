@@ -16,7 +16,7 @@
 </p>
 
 
-
+<!--
 <a href="https://github-stats-extended.vercel.app/api?username=Guilherme-Soler&show_icons=true&theme=transparent">
   <img
     height="200"
@@ -29,6 +29,6 @@
     align="center"
     src="https://github-stats-extended.vercel.app/api/top-langs?username=Guilherme-Soler&show_icons=true&theme=transparent&layout=compact&langs_count=8&card_width=320"/>
 </a>
-
+-->
 
 </div>
