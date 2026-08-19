@@ -18,13 +18,8 @@
     src="https://github-stats-extended.vercel.app/api/top-langs?username=Guilherme-Soler&show_icons=true&theme=transparent&layout=compact&langs_count=8&card_width=320"/>
 </a>
 
-<div>
-<a href = "mailto:solerhguilherme@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/guilherme-soler-lumiate-85128b398/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
-</div>
-
-
-
-
-
+<p align = "center">
+[<img src=".github/assets/btn_email.svg" alt="Email">](mailto:solerhguilherme@gmail.com)
+[<img src=".github/assets/btn_linkedin.svg" alt="LinkedIn">](https://www.linkedin.com/in/guilherme-soler-lumiate-85128b398)
+</p>
 </div>
