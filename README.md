@@ -7,8 +7,8 @@
 
 
 <p align = "center">
-[<img src=".github/assets/btn_email.svg" alt="Email">](mailto:solerhguilherme@gmail.com)
-[<img src=".github/assets/btn_linkedin.svg" alt="LinkedIn">](https://www.linkedin.com/in/guilherme-soler-lumiate-85128b398)
+[<img src="assets/btn_email.svg" alt="Email">](mailto:solerhguilherme@gmail.com)
+[<img src="assets/btn_linkedin.svg" alt="LinkedIn">](https://www.linkedin.com/in/guilherme-soler-lumiate-85128b398)
 </p>
 
 
