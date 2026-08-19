@@ -6,9 +6,13 @@
 </a>
 
 
-<p align = "center">
-[<img src="assets/btn_email.svg" alt="Email">](mailto:solerhguilherme@gmail.com)
-[<img src="assets/btn_linkedin.svg" alt="LinkedIn">](https://www.linkedin.com/in/guilherme-soler-lumiate-85128b398)
+<p align="center">
+  <a href="mailto:solerhguilherme@gmail.com">
+    <img src="https://raw.githubusercontent.com/Guilherme-Soler/Guilherme-Soler/main/btn_email.svg" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/guilherme-soler-lumiate-85128b398">
+    <img src="https://raw.githubusercontent.com/Guilherme-Soler/Guilherme-Soler/main/btn_linkedin.svg" alt="LinkedIn"/>
+  </a>
 </p>
 
 
