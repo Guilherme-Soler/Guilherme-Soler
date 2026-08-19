@@ -6,7 +6,7 @@
 </a>
 
 <!-- Texto digitando estilo terminal -->
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=20&duration=3000&pause=800&color=FF0000&center=true&vCenter=true&width=600&lines=%3E+INICIALIZANDO+SISTEMA...;%3E+LOADING+PROFILE...;%3E+WELCOME%2C+VISITOR;%3E+STATUS%3A+ONLINE_" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=20&duration=3000&pause=800&color=FF0000&center=true&vCenter=true&width=600&lines=%3E+BOOTING+SYSTEM...;%3E+LOADING+PROFILE...;%3E+WELCOME%2C+VISITOR;%3E+STATUS%3A+ONLINE_" alt="Typing SVG" />
 
 <p>
   📎 <a href="mailto:solerhguilherme@gmail.com">e-mail</a> ·
