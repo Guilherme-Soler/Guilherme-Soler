@@ -1,0 +1,101 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0000"/>
+      <stop offset="100%" stop-color="#1a0000"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="10%" r="90%">
+      <stop offset="0%" stop-color="#ff0000" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ff0000" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" opacity="0.35"/>
+      <rect y="2" width="4" height="2" fill="transparent"/>
+    </pattern>
+
+    <filter id="crtBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .txt   { font-family: 'Courier New', Courier, monospace; fill: #ff2b2b; }
+      .head  { font-weight: bold; }
+      .dim   { fill: #ff5555; opacity: 0.85; }
+      .flicker { animation: flicker 3.4s infinite; }
+      @keyframes flicker {
+        0%   { opacity: 1;   }
+        3%   { opacity: 0.82;}
+        6%   { opacity: 1;   }
+        7%   { opacity: 0.6; }
+        8%   { opacity: 1;   }
+        60%  { opacity: 1;   }
+        62%  { opacity: 0.85;}
+        64%  { opacity: 1;   }
+        100% { opacity: 1;   }
+      }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .scan-move { animation: scanmove 6s linear infinite; }
+      @keyframes scanmove {
+        0%   { transform: translateY(0); }
+        100% { transform: translateY(4px); }
+      }
+    </style>
+  </defs>
+
+  <!-- fundo -->
+  <rect width="900" height="600" fill="url(#bg)"/>
+  <rect width="900" height="600" fill="url(#glow)"/>
+  <rect x="6" y="6" width="888" height="588" fill="none" stroke="#440000" stroke-width="4" rx="10"/>
+
+  <g class="flicker" filter="url(#crtBlur)">
+
+    <!-- título -->
+    <text x="60" y="66" class="txt head" font-size="38" letter-spacing="3">&lt;GUILHERME_SOLER/&gt;</text>
+    <text x="60" y="94" class="txt dim" font-size="15" letter-spacing="1">SYSTEM ONLINE // ENGENHARIA DE SOFTWARE</text>
+
+    <line x1="60" y1="115" x2="840" y2="115" stroke="#550000" stroke-width="2"/>
+
+    <!-- whoami -->
+    <text x="60" y="150" class="txt head" font-size="19" letter-spacing="1">&gt;&gt; WHOAMI</text>
+    <text x="60" y="180" class="txt" font-size="16">&gt; nome ..........: Guilherme Soler</text>
+    <text x="60" y="205" class="txt" font-size="16">&gt; ocupação .......: Estudante de Engenharia de Software</text>
+    <text x="60" y="230" class="txt" font-size="16">&gt; localização ....: Brasil</text>
+    <text x="60" y="255" class="txt" font-size="16">&gt; stack principal.: Python / Java / C / C++ / SQL</text>
+    <text x="60" y="280" class="txt" font-size="16">&gt; status .........: [ compilando sonhos... 100% ]</text>
+
+    <line x1="60" y1="305" x2="840" y2="305" stroke="#550000" stroke-width="2"/>
+
+    <!-- stack -->
+    <text x="60" y="340" class="txt head" font-size="19" letter-spacing="1">&gt;&gt; STACK.exe</text>
+    <text x="60" y="372" class="txt" font-size="17" letter-spacing="1">[ PYTHON ]  [ JAVA ]  [ C ]  [ C++ ]  [ SQL ]  [ GIT ]</text>
+
+    <line x1="60" y1="398" x2="840" y2="398" stroke="#550000" stroke-width="2"/>
+
+    <!-- contato -->
+    <text x="60" y="432" class="txt head" font-size="19" letter-spacing="1">&gt;&gt; CONTATO.sh</text>
+    <text x="60" y="463" class="txt" font-size="16">&gt; email ..........: solerhguilherme@gmail.com</text>
+    <text x="60" y="488" class="txt" font-size="16">&gt; linkedin ........: /in/guilherme-soler-lumiate</text>
+
+    <text x="60" y="540" class="txt dim" font-size="14">&gt; connection_established</text>
+  </g>
+
+  <!-- cursor -->
+  <rect class="cursor" x="330" y="524" width="12" height="20" fill="#ff2b2b"/>
+
+  <!-- scanlines por cima de tudo -->
+  <g class="scan-move">
+    <rect width="900" height="604" fill="url(#scanlines)"/>
+  </g>
+
+  <rect width="900" height="600" fill="black" opacity="0.15" rx="10"/>
+</svg>
